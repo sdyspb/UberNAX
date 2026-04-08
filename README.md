@@ -1,4 +1,4 @@
-# UberNAX – модульная вычислительная платформа
+# Старт10 / UberNAX – модульная вычислительная платформа
 для NAS, Soft Router и AI-сервера
 
 <img width="1424" height="1152" alt="image" src="https://github.com/user-attachments/assets/ab49e4dc-0a5d-413f-9c0e-89452cd83713" />
