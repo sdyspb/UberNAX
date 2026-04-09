@@ -90,7 +90,7 @@ UberNAX легко встраивается в распределённые си
 - **Сервер**: Nginx + uWSGI / Gunicorn.
 - **Координация**: Docker Compose, Kubernetes (k3s) – UberNAX может выступать как worker-нода.
 
-> Подробное описание настройки распределённой обработки видеопотоков см. в [`docs/distributed_computing.md`](docs/distributed_computing.md).
+> Подробное описание настройки распределённой обработки видеопотоков см. в [`docs/distributed_computing.md`](docs/README.md).
 
 # Модуль собственной разработки UberNAX – 4-портовый контроллер M.2 для промышленных ПК
 
