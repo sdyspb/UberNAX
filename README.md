@@ -92,7 +92,7 @@ UberNAX легко встраивается в распределённые си
 
 > Подробное описание настройки распределённой обработки видеопотоков см. в [`docs/distributed_computing.md`](docs/distributed_computing.md).
 
-# Собственный модуль UberNAX – M.2 устройство для промышленных ПК
+# Собственный модуль UberNAX – 4-портовый контроллер M.2 для промышленных ПК
 
 <img width="963" height="955" alt="image" src="https://github.com/user-attachments/assets/966e4cc3-5486-4a84-bb1d-9b783e85b149" />
 
