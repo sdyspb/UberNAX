@@ -32,7 +32,6 @@
 
 | Вариант       | Дистрибутив                          | Ссылка                                          |
 |---------------|--------------------------------------|-------------------------------------------------|
-| NAS           | TrueNAS Scale (Debian based)         | [https://www.truenas.com/download-truenas-scale/](https://www.truenas.com/download-truenas-scale/) |
 | OMV           | Openmediavault (Debian based)        | [https://www.openmediavault.org/](https://www.openmediavault.org/) |
 | Soft Router   | OPNsense                             | [https://opnsense.org/download/](https://opnsense.org/download/) |
 | AI Server     | Ubuntu Server 22.04 LTS              | [https://ubuntu.com/download/server](https://ubuntu.com/download/server) |
