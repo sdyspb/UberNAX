@@ -88,7 +88,7 @@ UberNAX легко встраивается в распределённые си
 - **Фреймворк**: FastAPI + Celery (Python) или Node.js + Bull.
 - **Кэш**: Redis (на отдельном узле или контейнере на самом UberNAX).
 - **Сервер**: Nginx + uWSGI / Gunicorn.
-- **Оркестрация**: Docker Compose, Kubernetes (k3s) – UberNAX может выступать как worker-нода.
+- **Координация**: Docker Compose, Kubernetes (k3s) – UberNAX может выступать как worker-нода.
 
 > Подробное описание настройки распределённой обработки видеопотоков см. в [`docs/distributed_computing.md`](docs/distributed_computing.md).
 
