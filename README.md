@@ -147,6 +147,8 @@ flowchart TD
     Edge -- gRPC / MQTT / Redis --> Cache
     Cache --> Backend
     Backend --> Storage
+
+    Cameras@{ shape: h-cyl}
 ```
 
 > Подробное описание настройки распределённой обработки видеопотоков см. в [`docs/distributed_computing.md`](docs/distributed_computing.md).
