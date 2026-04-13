@@ -133,30 +133,20 @@ flowchart TB
 - **Сервер**: Nginx + uWSGI / Gunicorn.
 - **Координация**: Docker Compose, Kubernetes (k3s) – UberNAX может выступать как worker-нода.
 
-``` Распределенная архитектура
-[Промышленные камеры] --(Ethernet)--> [Коммутатор / Прямое подключение]
-               |
-+--------------+--------------+
-|         UberNAX Edge        |
-|       (AI-ускорители)       |
-+--------------+--------------+
-               |
-     (gRPC / MQTT / Redis)
-               |
-+--------------+--------------+
-|          Кэш-сервер         |
-|     (Redis, Memcached)　　　｜
-+--------------+--------------+
-               |
-+--------------+--------------+
-| 　　　　　　Бэкенд　　　　　　|
-|　(Node.js, Python/FastAPI)  |
-+--------------+--------------+
-               |
-+--------------+--------------+
-| 　　　　　Хранилище　　　　　 |
-| 　　　　(UberNAX NAS)        |
-+--------------+--------------+
+**Распределенная архитектура**
+
+``` mermaid
+flowchart TD
+    Cameras[Промышленные IP-камеры]
+    Edge[UberNAX Edge<br>AI-ускорители]
+    Cache[Кэш-сервер<br>Redis, Memcached]
+    Backend[Бэкенд<br>Node.js, Python/FastAPI]
+    Storage[Хранилище<br>UberNAX NAS]
+
+    Cameras -- Ethernet --> Edge
+    Edge -- gRPC / MQTT / Redis --> Cache
+    Cache --> Backend
+    Backend --> Storage
 ```
 
 > Подробное описание настройки распределённой обработки видеопотоков см. в [`docs/distributed_computing.md`](docs/distributed_computing.md).
