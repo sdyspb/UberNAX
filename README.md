@@ -141,7 +141,7 @@ flowchart TD
     Edge[UberNAX Edge<br>AI-ускорители]
     Cache[Кэш-сервер<br>Redis, Memcached]
     Backend[Бэкенд<br>Node.js, Python/FastAPI]
-    Storage[Хранилище<br>UberNAX NAS]
+    Storage[UberNAX NAS<br>RAID 0,1,5,6,10]
 
     Cameras -- Ethernet --> Edge
     Edge -- gRPC / MQTT / Redis --> Cache
