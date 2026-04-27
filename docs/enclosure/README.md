@@ -22,3 +22,8 @@
   <div align="center">
     <img src="router_assembly.jpg" alt="Design 3">
 </div>
+
+<h3 align="center">Концепт простого корпуса</h3><div align="center">
+  <div align="center">
+    <img src="two_profiles.jpg" alt="Design 4">
+</div>
