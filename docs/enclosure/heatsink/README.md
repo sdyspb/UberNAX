@@ -1,24 +1,15 @@
-<h1 align="center">Heatsinks and Passive cooling</h1>
+<h1 align="center">Радиаторы и охлаждение</h1>
 
-<h3 align="center">Topton and CWWK design</h3>
+<h3 align="center">Профиль AB1146</h3>
 <div align="center">
-    <img src="topton_assembly.jpg" alt="Topton design">
+    <img src="AB1145_d.png" alt="Лигра АВ1145">
 </div>
 
-<h3 align="center">Industrial PC design</h3>
+<h3 align="center">Профиль АВ9010</h3>
 <div align="center">
-    <img src="sharevdi_1.jpg" alt="Design 1A">
+    <img src="AB9010_4.jpg" alt="Design 1A">
 </div>
 
-<div align="center">
-    <img src="sharevdi_2.jpg" alt="Design 1B">
-</div>
-
-<h3 align="center">Industrial PC design with mounting brackets</h3><div align="center">
-    <img src="photo_2025-11-03_02-12-14.jpg" alt="Design 2">
-</div>
-
-<h3 align="center">Router design</h3><div align="center">
-  <div align="center">
-    <img src="router_assembly.jpg" alt="Design 3">
+<h3 align="center">Профиль с продувкой</h3><div align="center">
+    <img src="AB9032_cooler_0035.jpg" alt="Design 2">
 </div>
